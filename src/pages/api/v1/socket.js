@@ -1,10 +1,10 @@
 import { Server } from "socket.io";
 import HistoryService from "@/services/histories.service";
 
-const service = new HistoryService();
+const service = new HistoryService(); // Creamos una instancia del servicio de historial
 
 export default function SocketHandler(req, res) {
-  // It means that socket server was already initialised
+  // Si ya se ha configurado el servidor de socket, terminamos la conexión
   if (res.socket.server.io) {
     console.log("Already set up");
     res.end();
