@@ -6,7 +6,7 @@ Como cualquier app de Node.js, se debe instalar los paquetes con el siguiente co
 npm i
 ```
 
-Se usa una base de datos de MongoDB en el archivo .env, existe un ejemplo en la carpeta raíz, pero debe tener el siguiente formato y conectarse a mongo db
+Se usa una base de datos de MongoDB en el archivo .env, existe un ejemplo en la carpeta raíz, pero debe tener el siguiente formato y conectarse a MongoDB
 
 ```
 MONGO_DB_NAME=demo
