@@ -14,6 +14,7 @@ MONGO_URL=mongodb://root:root123@localhost:27017?retryWrites=true&writeConcern=m
 ```
 
 > MONGO_DB_NAME: nombre de la base de datos a usar
+
 > MONGO_URL: la url de la base de datos
 
 Como se usa MongoDB solo con agregar lo anterior se configura automáticamente.
